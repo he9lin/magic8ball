@@ -1,7 +1,5 @@
 # Magic Eight Ball: A RubyMotion Example App
 
-**Update**
-
 ### Goodies used on top of the original screencast source code
 
 * `teacup` for managing styels
