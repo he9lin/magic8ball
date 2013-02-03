@@ -12,11 +12,10 @@ class Magic8Ball
 private
 
   def loadAnswers
-    data = BW::File.load('answers', 'json')
-
-    answers = begin
+    begin
+      data = BW::File.load('answers', 'json')
       BW::JSON.parse(data)['answers']
-    rescue BW::JSON::ParserError
+    rescue BW::JSON::ParserError, BW::File::LoadError
       defaultAnswers
     end
   end
