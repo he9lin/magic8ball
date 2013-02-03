@@ -11,4 +11,5 @@ Motion::Project::App.setup do |app|
   app.icons << 'icon.png'
 
   app.files += Dir.glob(File.join(app.project_dir, 'styles/**/*.rb'))
+  app.files += Dir.glob(File.join(app.project_dir, 'lib/**/*.rb'))
 end

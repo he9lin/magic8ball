@@ -1,15 +1,15 @@
 Teacup::Stylesheet.new(:main) do
 
   style :root,
-    image: UIImage.imageNamed('background.png')
+    image: "background.png".uiimage
 
   style :label,
-    backgroundColor: UIColor.lightGrayColor,
+    backgroundColor: "#ccc".uicolor,
     text: "Tap For Answer!",
     frame: [[10,60], [300,80]],
-    textColor: UIColor.darkGrayColor,
-    textAlignment: UITextAlignmentCenter,
-    font: UIFont.boldSystemFontOfSize(34)
+    textColor: "#555".uicolor,
+    textAlignment: :center.uialignment,
+    font: :bold.uifont(34)
 
 end
 
