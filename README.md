@@ -3,6 +3,7 @@
 ### Goodies used on top of the original screencast source code
 
 * `teacup` for managing styels
+* `bubblewrap` and `sugarcube` for awesome ruby style coding
 
 ## Screencast
 
